@@ -79,7 +79,7 @@ if (h_11 == 'Ottawa'){
     getElementById('right_5').style.borderColor = 'red'
 }
 
-(result <= 6){
+if (result <= 6){
     vorak = "you didn't pass ):"
     getElementById('score').style.color='red'
     getElementById('Answer').style.color='red'
