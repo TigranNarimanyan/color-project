@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(197, 106, 250);
+}
+.wrapper{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(5, 253, 253);
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 10px solid rgb(13, 14, 13);
+    position: relative;
+}
+input{
+   position: absolute; 
+   border-radius: 50%;
+   background-color: rgb(254, 177, 10);
+   padding: 20px;
+   width: 90px;
+   text-align: center;
+   font-weight: 600;
+    color: rgb(1, 10, 17);
+}
+::placeholder{
+    color: rgb(108, 134, 253);
+}
+#left_1{
+    width: 200px;
+    font-size: 24px;
+    padding: 48px;
+    top: 5px;
+    right: 35%;
+}
+
+#left_2{
+    font-size: 20px;
+    width: 100px;
+    right: 65%;
+    top: 45px;
+}
+
+#left_3{
+    font-size: 20px;
+    top: 116px;
+    right: 78%;
+}
+#left_4{
+    font-size: 20px;
+    top: 202px;
+    right: 85%;
+}
+
+#left_5{
+    font-size: 20px;
+    top: 306px;
+    right: 86%;
+}
+
+#left_6{
+    font-size: 20px;
+    top: 397px;
+    right: 81%;
+}
+
+#right_1{
+    font-size: 20px;
+   top: 45px;
+    left: 65%;
+}
+
+#right_2{
+    font-size: 20px;
+    top: 116px;
+    left: 78%;
+}
+#right_3{
+    font-size: 20px;
+    top: 202px;
+    left: 85%;
+}
+
+#right_4{
+    font-size: 20px;
+    top: 306px;
+    left: 86%;
+}
+
+#right_5{
+    font-size: 20px;
+    top: 397px;
+    left: 81%;
+}
+
+.btn{
+    background-color: rgb(254, 177, 10);;
+    border-radius: 50%;
+    padding: 40px;
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 80%;
+    font-weight: 700;
+    font-size: x-large;
+    color: rgb(108, 134, 253);
+}
+
+#score{
+    font-size: xx-large;
+    position: absolute;
+    top: 225px;
+    right: 484px;
+}
+
+#Answer{
+    font-size: xx-large;
+    position: absolute;
+    top: 282px;
+    right: 334px;
+}
