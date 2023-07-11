@@ -1,5 +1,5 @@
-function start() 
-    with (document){}
+function start () {
+    with (document) {
 let h_1 = String(getElementById('left_1').value);
 let h_2 = String(getElementById('left_2').value);
 let h_3 = String(getElementById('left_3').value);
@@ -98,7 +98,8 @@ if (result>18){
 }
 getElementById('score').innerHTML=result
 getElementById('Answer').innerHTML=vorak
-
+}
+ }
 
 
 
